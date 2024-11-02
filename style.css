@@ -194,6 +194,7 @@ h6 {
   border-radius: 50px;
   padding: 10px;
 }
+/* section two */
 .Event {
   /* border: 2px solid black; */
   display: flex;
@@ -205,6 +206,7 @@ h6 {
 .Eventcard {
   color: white;
 }
+/* section three */
 
 .secThree {
   padding: 2rem 0;
