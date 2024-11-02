@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page of tickfy</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="BDY">
+    <label for="toggle" class="hamburger">&#9776;</label>
+    <input type="checkbox" id="toggle" />
+    <div class="top-wrapper">
+      <nav class="navtop">
+        <div class="innerNav genLayout">
+          <h1 class="title">TICKFY</h1>
+
+          <div class="navItems">
+            <a href="#">Schedule</a>
+            <a href="#">Speakers</a>
+            <a href="#">Ticket</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <button class="navbtn">Login</button>
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <section class="secOne">
+        <div class="banner genLayout">
+          <div class="banner-left">
+            <div class="bannerImage">
+              <img src="./image/ticket.jpeg" alt="Event Ticket Image" />
+            </div>
+          </div>
+          <div class="banner-right">
+            <div class="banner-content">
+              <h1>
+                Effortless Event <br />
+                Ticketing - Create, Share, and Attend.
+              </h1>
+              <p>
+                Manage events and tickets with ease. Seamlessly organize,
+                promote, and sell tickets for both online and in-person events.
+              </p>
+            </div>
+            <div class="downbtn">
+              <button class="dnwbtn">Get Ticket</button>
+              <button class="dwnbtn1">More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secTwo">
+        <div class="Event genLayout">
+          <div class="Eventcard">
+            <h4>Search Event</h4>
+            <input
+              type="text"
+              class="input input-field"
+              placeholder="AfroFuse"
+            />
+          </div>
+          <div class="Eventcard">
+            <h4>Place</h4>
+            <input
+              type="text"
+              class="input input-field"
+              placeholder="Nigeria"
+            />
+          </div>
+          <div class="Eventcard">
+            <h4>Time</h4>
+            <input
+              type="text"
+              class="input input-field"
+              placeholder="Any date"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="secThree">
+        <div class="prog-wrapper genLayout">
+          <div class="progNav genLayout">
+            <h1 class="eventitle">UP COMING EVENT</h1>
+            <div class="progItems">
+              <button>weekdays</button>
+              <button>Event type</button>
+              <button>Any catergory</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secfour">
+        <div class="progcontainer">
+          <div class="progImage genLayout">
+            <img src="./image/ticket.jpeg" alt="one" />
+            <p>april 14</p>
+            <img src="./image/ticket.jpeg" alt="two" />
+            <img src="./image/ticket.jpeg" alt="three" />
+            <img src="./image/ticket.jpeg" alt="four" />
+            <img src="./image/ticket.jpeg" alt="five" />
+            <img src="./image/ticket.jpeg" alt="six" />
+          </div>
+        </div>
+        <button class="bdw">learn More</button>
+      </section>
+
+      <section class="secfive">
+        <div class="makeyour genLayout">
+          <div class="makeyour-left">
+            <div class="makeyourImage">
+              <img src="./image/ticket.jpeg" alt="Event Ticket Image" />
+            </div>
+          </div>
+          <div class="makeyour-right">
+            <div class="makeyour-content">
+              <h1>
+                Make your own event.
+              </h1>
+              <p>
+                Manage events and tickets with ease. Seamlessly organize,
+                promote, and sell tickets for both online and in-person events.
+              </p>
+              <button id="your">create event</button>
+            </div>
+      </section>
+    </main>
+    <script src="./class.js" ></script>
+  </body>
+</html>

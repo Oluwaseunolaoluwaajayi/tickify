@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset password</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="BDY">
+    <div class="container genLayout">
+      <div class="login-container">
+        <h1>Reset Password</h1>
+        <p>Enter your new password below</p>
+        <form action="submit_login.php" method="POST">
+          <input
+            type="password"
+            class="input-field"
+            name="password"
+            placeholder="new password"
+            required
+          />
+          <input
+            type="new password"
+            class="input-field"
+            name="confirm new password"
+            placeholder="confirm new Password"
+            required
+          />
+        </form>
+        <button class="btn">reset successful</button>
+      </div>
+    </div>
+  </body>
+</html>

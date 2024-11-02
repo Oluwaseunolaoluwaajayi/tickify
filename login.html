@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="BDY">
+    <label for="toggle" class="hamburger">&#9776;</label>
+    <input type="checkbox" id="toggle" />
+    <!-- login-container -->
+    <div class="container genLayout">
+      <div class="login-container">
+        <span><button>Login</button></span>
+        <h2>Log in</h2>
+        <form action="submit_login.php" method="POST">
+          <input
+            type="email"
+            class="input-field"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input id="ipt" type="submit" class="btn" value="Log In" />
+        </form>
+        <div class="or">or</div>
+        <button class="btn google-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+            alt="Google"
+          />
+          Continue with Google
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

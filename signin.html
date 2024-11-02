@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="BDY">
+
+    <label for="toggle" class="hamburger">&#9776;</label>
+    <input type="checkbox" id="toggle" />
+    <nav>
+
+        <div>
+            <button><img src="" alt="image"></button>
+            
+        </div>
+    </nav>
+    <!-- signup box -->
+    <div class="container genLayout">
+      <!-- signup-container -->
+      <div class="signup-container">
+        <span><button>signup</button></span>
+        <h2>SIGN UP</h2>
+        <form action="submit_signup.php" method="POST">
+          <input
+            type="email"
+            class="input-field"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            name="confirm_password"
+            placeholder="Confirm Password"
+            required
+          />
+          <input id="ipt"
+          type="submit" class="btn" value="Sign Up" />
+        </form>
+        <h6>OR</h6>
+        <button class="btn google-btn">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+            alt="Google"
+          />
+          Continue with Google
+        </button>
+      </div>
+
+      
+  </body>
+</html>
